@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sign-up Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="content">
+
+      <div class="splash">
+        <div class="container">
+          <img class="odin" src="odin-lined.png" alt="odin logo">
+          <span>ODIN</span>
+        </div>
+        <div class="credit">
+          <span>Photo by <a href="https://unsplash.com/@sotti?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Shifaaz shamoon</a> on <a href="https://unsplash.com/photos/9K9ipjhDdks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+          </span>
+        </div>
+      </div>
+
+      <div class="info">
+
+        <div class="text bold">
+          <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up <em>now</em> to get started.</p>
+          <p>You <em>know</em> you want to.</p>
+        </div>
+      
+        <div class="mid">
+          <div class="text">
+            <p class="bold">Let's do this!</p>
+            <form id="signup" action="" method="get">
+              <div class="widget">
+                <label for="firstname">FIRST NAME</label>
+                <input type="text" id="firstname" name="firstname" required>
+              </div>
+              <div class="widget">
+                <label for="lastname">LAST NAME</label>
+                <input type="text" id="lastname" name="lastname" required>
+              </div>
+              <div class="widget">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="widget">
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" id="phone" name="phone">
+              </div>
+              <div class="widget">
+                <label for="pass">PASSWORD</label>
+                <input type="password" id="pass" name="pass" required>
+              </div>
+              <div class="widget">
+                <label for="confirm">CONFIRM PASSWORD</label>
+                <input type="password" id="confirm" name="confirm" required>
+              </div>
+              <p class="error">Passwords must match!</p>
+            </form>
+          </div>
+        </div>
+        <div class="text">
+          <button class="bold" type="submit" form="signup">Create Account</button>
+          <p>Already have an account? <a class="login" href="">Log in</a></p>
+        </div>
+      </div>
+    </div>
+
+  </body>
+  <script src="script.js"></script>
+</html>
